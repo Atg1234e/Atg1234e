@@ -1,0 +1,4 @@
+def_ chr=input("*")
+for chr in range(5,def_chr-1)
+print (def_chr)
+
