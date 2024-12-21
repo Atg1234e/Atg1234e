@@ -16,13 +16,22 @@
 </html>
 {
 let c=23;
-const b="hello world"
-console.log(c,b); 
+ 
+{ 
+    let c = 23; 
+    const b = "hello world"; 
+    console.log(c, b); // Logs: 23 "hello world"
 }
-let c=233;
-console.log(c);
-int a=32;
-console.log (a);
-int i;
-console.log ("Enter value ");
-prompt(i);
+
+let c = 233; // Declares a new 'c' outside the block
+console.log(c); // Logs: 233
+
+let a = 32; // Replace 'int' with 'let'
+console.log(a); // Logs: 32
+
+let i; // Declare variable 'i'
+i = prompt("Enter value: "); // Prompt user to enter a value (browser environment)
+console.log("You entered:", i); 
+
+
+
