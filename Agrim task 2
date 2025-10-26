@@ -1,0 +1,19 @@
+# Phishing Email Analysis Report
+
+## Objective
+Identify phishing indicators in the sample email.
+
+## Findings
+- Fake sender domain: paypa1.com
+- Suspicious URL: http://paypa1-login.ru
+- Urgent language: "Account suspended", "Verify now"
+- Grammar mistakes found
+
+## Tools Used
+- grep
+- nslookup
+- whois
+- MXToolbox Header Analyzer
+
+## Conclusion
+The analyzed email exhibits multiple phishing indicators designed to trick users into revealing credentials.
